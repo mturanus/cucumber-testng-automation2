@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">I logged into suiteCRM (PASSED : 17s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I save a new contact: (PASSED : 20s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should see contact information for &quot;Bafetimbi GOMIS&quot; (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I logged into suiteCRM (PASSED : 13s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I save a new contact: (PASSED : 17s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">I should see contact information for &quot;Wesley Sneijder&quot; (PASSED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2018-03-25T19:37:43Z" name="Default suite" finished-at="2018-03-25T19:38:56Z" duration-ms="72941">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@65b3f4a4]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2018-03-25T19:37:43Z" name="Default test" finished-at="2018-03-25T19:38:56Z" duration-ms="72941">
+      <class name="com.app.runners.CukesRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.app.runners.CukesRunner@65b3f4a4]" started-at="2018-03-25T19:37:43Z" name="setUpClass" finished-at="2018-03-25T19:37:44Z" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@65b3f4a4]" started-at="2018-03-25T19:37:44Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-03-25T19:38:24Z" duration-ms="40551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create way more contacts"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create contacts using beans"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into suiteCRM (PASSED : 17s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I save a new contact: (PASSED : 20s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should see contact information for &quot;Bafetimbi GOMIS&quot; (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.app.runners.CukesRunner@65b3f4a4]" started-at="2018-03-25T19:38:24Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-03-25T19:38:56Z" duration-ms="32033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create way more contacts"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Create contacts using beans"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I logged into suiteCRM (PASSED : 13s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I save a new contact: (PASSED : 17s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">I should see contact information for &quot;Wesley Sneijder&quot; (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.app.runners.CukesRunner@65b3f4a4]" started-at="2018-03-25T19:38:56Z" name="tearDownClass" finished-at="2018-03-25T19:38:56Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.app.runners.CukesRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
